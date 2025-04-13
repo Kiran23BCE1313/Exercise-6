@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23BCE1313</title>
+    <style>
+        .photo {
+            width: 150px;
+            height: 150px;
+            border: 2px solid #7a1414; 
+            border-radius: 50%; 
+            display: block;
+            margin: 20px auto; 
+            transition: transform 0.3s ease; 
+        }
+
+        .myphto:hover {
+            transform: scale(1.1);
+        }
+
+        .title {
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            animation: colorChange 5s infinite, fontSizeChange 5s infinite;
+        }
+
+        @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: purple; }
+            100% { color: orange; }
+        }
+
+        @keyframes fontSizeChange {
+            0% { font-size: 16px; }
+            50% { font-size: 24px; }
+            100% { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="title">My Favorite Singer is Ed Sheeran</div>
+    <img src="https://www.nme.com/wp-content/uploads/2021/11/EdSheeran-PopPeers-interview-news.jpg"  class="photo">
+   
+</body>
+</html>

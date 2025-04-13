@@ -1,0 +1,54 @@
+table,
+th,
+td {
+    border: none;
+}
+
+table{
+    font-size: 20px;
+    border-spacing: 15px;
+    background-color: rgb(98, 205, 231);
+    padding: 5px;
+}
+td{
+    color: #525050;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 6px #888888;
+    padding: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.C{
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 6px #ff2929;
+    background-color: rgb(231, 105, 105);
+    padding: 11px;
+    padding-left: 40px;
+    padding-right: 40px
+}
+
+.bt-1{
+    color: white;
+    background-color: rgb(109, 99, 245);
+    box-shadow: 0px 7px  rgb(39, 27, 209);
+    
+}
+.input{
+    box-shadow: 0px 7px 0px rgb(88, 88, 88) inset;
+    border-radius: 5px;
+    background-color: rgb(127, 160, 182);
+}
+.operator{
+    background-color: rgb(255, 230, 230);
+}
+
+.bt-eq{
+    color:black;
+    background-color: rgb(213, 245, 99);
+    box-shadow: 0px 7px  rgb(131, 145, 9);
+
+}
